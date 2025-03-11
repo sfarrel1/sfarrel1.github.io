@@ -138,6 +138,44 @@
         </p>
       </td>
     </tr>
+
+    <tr onmouseout="dgwf_stop()" onmouseover="dgwf_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='dgwf_image'><img src="images/dgwf_overview.png" width="160"></div>
+          <img src='images/dgwf_overview.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function dgwf_start() {
+            document.getElementById('dgwf_image').style.opacity = "1";
+          }
+
+          function dgwf_stop() {
+            document.getElementById('dgwf_image').style.opacity = "0";
+          }
+          dgwf_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/pdf/2206.03984">
+			<span class="papertitle">Distributed Generalized Wirtinger Flow for Interferometric Imaging on Networks
+</span>
+        </a>
+        <br>
+        <strong> Sean M. Farrell </strong>,
+        <a href="https://computationalimaging.rice.edu/">Ashok Veeraraghavan</a>,
+        <a href="https://ashu.rice.edu/">Ashutosh Sabharwal</a>,
+        <a href="https://cauribe.rice.edu/">César A. Uribe</a>
+        <br>
+        <em>NECSYS</em>, 2022 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+        <br>
+        <a href="https://arxiv.org/pdf/2206.03984">arXiv</a>
+        <p></p>
+        <p>
+          We propose a primal-dual distributed algorithm called Distributed Generalized Wirtinger Flow (DGWF) to achieve decentralized interferometric radar imaging over a network.
+        </p>
+      </td>
+    </tr>
 <!-- 
 
     <tr onmouseout="r2r_stop()" onmouseover="r2r_start()">
