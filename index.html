@@ -26,7 +26,7 @@
                     I'm a Ph.D. student in the Computational Imaging Lab <a href="https://computationalimaging.rice.edu/"> at Rice University</a> in Houston Texas, where I am advised by Prof. Ashok Veeraraghavan. I have also worked closely with Prof. Ashutosh Sabharwal, Prof. Naomi Halas, Prof. Cesar A. Uribe, Dr. Henry O. Everitt from Rice University and Wolfgang Heidrich from KAUST.
                 </p>
                 <p>
-                    I graduated from Trinity University with a degree in Engineering Science and minor in Mathematics. During my time there, I worked with Prof. Dennis Ugolini on optical coatings for the Laser Interfereometric Gravitational-Wave Observatory (LIGO). I also worked with Prof. Kelly-Zion on studying fluid dynamics of sessile drop evaporation.
+                    I graduated from Trinity University in 2019 with a degree in Engineering Science and minor in Mathematics. During my time there, I worked with Prof. Dennis Ugolini on optical coatings for the Laser Interfereometric Gravitational-Wave Observatory (LIGO). I also worked with Prof. Kelly-Zion on studying fluid dynamics of sessile drop evaporation.
                 </p>
                 <p style="text-align:center">
                   <a href="smf5@rice.edu">Email</a> &nbsp;/&nbsp;
@@ -47,14 +47,14 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research Interests</h2>
                 <p>
-                   My research lies at the intersection of <b>computational imaging</b>, <b>machine learning</b>, <b>wireless communication</b>, and <b>radar imaging</b>. My research focuses on designing new systems and algorithms for solving imaging inverse problems at sub-optical wavelengths (millimeter wave, terahertz, and mid-wave infrared).
+                   My research lies at the intersection of <b>computational imaging</b>, <b>machine learning</b>, <b>wireless communication</b>, and <b>radar imaging</b>. Specifically, I work on designing new systems and algorithms for solving imaging inverse problems at sub-optical wavelengths (millimeter wave, terahertz, and mid-wave infrared).
                 </p>
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-
+            
 
 
     <tr onmouseout="power_stop()" onmouseover="power_start()" bgcolor="#ffffd0">
@@ -93,6 +93,48 @@
         <p></p>
         <p>
 				A slight tweak to the Box-Cox power transform generalizes a variety of curves, losses, kernel functions, probability distributions, bump functions, and neural network activation functions.
+        </p>
+      </td>
+    </tr>
+
+
+    <tr onmouseout="coir_stop()" onmouseover="coir_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='coir_image'><img src="images/coir_processed.png"></div>
+          <img src='images/coir_unprocessed.png'>
+        </div>
+        <script type="text/javascript">
+          function coir_start() {
+            document.getElementById('coir_image').style.opacity = "1";
+          }
+
+          function coir_stop() {
+            document.getElementById('coir_image').style.opacity = "0";
+          }
+          coir_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10214469">
+			<span class="papertitle">CoIR: Compressive Implicit Radar
+</span>
+        </a>
+        <br>
+        <strong> Sean M. Farrell </strong>,
+        <a href="https://vivekboominathan.com/">Vivek Boominathan </a>,
+        <a href="https://www.linkedin.com/in/nathaniel-raymondi-1431b1103/">Nathaniel Raymondi</a>,
+        <a href="https://ashu.rice.edu/">Ashutosh Sabharwal</a>,
+        <a href="https://computationalimaging.rice.edu/">Ashok Veeraraghavan</a>
+        <br>
+        <em>TPAMI</em>, 2023 &nbsp <font color="red"><strong>(ICCP 2023 Oral Presentation)</strong></font>
+        <br>
+        <a href="https://github.com/sfarrel1/supplement-CoIR">project github</a>
+        /
+        <a href="https://ieeexplore.ieee.org/abstract/document/10214469">IEEE</a>
+        <p></p>
+        <p>
+          Compressive Implicit Radar (CoIR) is an analysis by synthesis method that leverages the implicit neural network bias in convolutional decoders and compressed sensing to perform high accuracy millimeter wave radar imaging.
         </p>
       </td>
     </tr>
