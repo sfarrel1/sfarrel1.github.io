@@ -101,16 +101,18 @@
     <tr onmouseout="screen_stop()" onmouseover="screen_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='screen_image'><img src="images/screen_b_look_a.png" width="160"></div>
-          <img src='images/screen_a_look_b.png' width="160">
+          <div class="two" id='screen_top_image'><img src="images/screen_a_look_b.png" width="160"></div>
+          <img id= "screen_bot_image" src='images/screen_b_look_a.png' width="160">
         </div>
         <script type="text/javascript">
           function screen_start() {
-            document.getElementById('screen_image').style.opacity = "1";
+            document.getElementById('screen_top_image').style.opacity = "1";
+            document.getElementById('screen_bot_image').style.visibility = "hidden";
           }
 
           function screen_stop() {
-            document.getElementById('screen_image').style.opacity = "0";
+            document.getElementById('screen_top_image').style.opacity = "0";
+            document.getElementById('screen_bot_image').style.visibility = "visible";
           }
           screen_stop()
         </script>
@@ -144,16 +146,18 @@
     <tr onmouseout="coir_stop()" onmouseover="coir_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='coir_image'><img src="images/coir_processed.png" width="160"></div>
-          <img src='images/coir_unprocessed.png' width="160">
+          <div class="two" id='coir_top_image'><img src="images/coir_processed.png" width="160"></div>
+          <img id="coir_bot_image" src='images/coir_unprocessed.png' width="160">
         </div>
         <script type="text/javascript">
           function coir_start() {
-            document.getElementById('coir_image').style.opacity = "1";
+            document.getElementById('coir_top_image').style.opacity = "1";
+            document.getElementById('coir_bot_image').style.visibility = "hidden";
           }
 
           function coir_stop() {
-            document.getElementById('coir_image').style.opacity = "0";
+            document.getElementById('coir_top_image').style.opacity = "0";
+            document.getElementById('coir_bot_image').style.visibility = "visible";
           }
           coir_stop()
         </script>
