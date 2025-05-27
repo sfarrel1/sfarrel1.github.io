@@ -98,6 +98,49 @@
     </tr> -->
 
 
+    <tr onmouseout="screen_stop()" onmouseover="screen_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='screen_image'><img src="images/screen_b_look_a.png" width="160"></div>
+          <img src='images/screen_a_look_b.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function screen_start() {
+            document.getElementById('screen_image').style.opacity = "1";
+          }
+
+          function screen_stop() {
+            document.getElementById('screen_image').style.opacity = "0";
+          }
+          screen_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://opg.optica.org/optica/fulltext.cfm?uri=optica-12-6-753&id=572223">
+			<span class="papertitle">SCREEN: SCatteREr ENabled optical asymmetry
+</span>
+        </a>
+        <br>
+        <a href="https://yongyizhao.com/">Yongyi Zhao* </a>,
+        <strong> Sean M. Farrell* </strong>,
+        Christian R. Jacobson,
+        AJ Yates,
+        Andrew McClung,
+        Urcan Guler,
+        <a href="https://halas.rice.edu/">Naomi J. Halas</a>,
+        <a href="https://nordlander.rice.edu/members/nordlander/">Peter Nordlander</a>
+        <a href="https://computationalimaging.rice.edu/">Ashok Veeraraghavan</a>
+        <br>
+        <em>Optica</em>, 2025, (* indicates equal contribution)
+        <br>
+        <a href="https://opg.optica.org/optica/fulltext.cfm?uri=optica-12-6-753&id=572223">[paper]</a>
+        <p></p>
+        <p>
+          Optical asymmetry creates a view-dependent visibility. Traditional methods, such as the one-way mirror, are active approaches that rely on changes in ambient illumination to create optical asymmetry. We propose SCREEN, a robust and flexible passive technique for producing optical asymmetry in the visible and mid-wave infrared bands by optimizing the optical and geometric properties of a scattering medium.
+        </p>
+      </td>
+    </tr>
+
     <tr onmouseout="coir_stop()" onmouseover="coir_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
@@ -129,9 +172,9 @@
         <br>
         <em>TPAMI</em>, 2023 &nbsp <font color="red"><strong>(ICCP 2023 Oral Presentation)</strong></font>
         <br>
-        <a href="https://github.com/sfarrel1/supplement-CoIR">project github</a>
+        <a href="https://github.com/sfarrel1/supplement-CoIR">[project github]</a>
         /
-        <a href="https://ieeexplore.ieee.org/abstract/document/10214469">IEEE</a>
+        <a href="https://ieeexplore.ieee.org/abstract/document/10214469">[paper]</a>
         <p></p>
         <p>
           Compressive Implicit Radar (CoIR) is an analysis by synthesis method that leverages the implicit neural network bias in convolutional decoders and compressed sensing to perform high accuracy millimeter wave radar imaging.
@@ -169,7 +212,7 @@
         <br>
         <em>NECSYS</em>, 2022 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
         <br>
-        <a href="https://arxiv.org/pdf/2206.03984">arXiv</a>
+        <a href="https://arxiv.org/pdf/2206.03984">[paper]</a>
         <p></p>
         <p>
           We propose a primal-dual distributed algorithm called Distributed Generalized Wirtinger Flow (DGWF) to achieve decentralized interferometric radar imaging over a network.
