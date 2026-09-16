@@ -23,7 +23,7 @@
                   Sean Farrell
                 </p>
                 <p>
-                    I'm a Ph.D. student in the Computational Imaging Lab <a href="https://computationalimaging.rice.edu/"> at Rice University</a> in Houston Texas, where I am advised by Prof. Ashok Veeraraghavan. I have also worked closely with Prof. Ashutosh Sabharwal, Prof. Naomi Halas, Prof. Cesar A. Uribe, Dr. Henry O. Everitt from Rice University and Prof. Wolfgang Heidrich from KAUST.
+                    I am a postdoc in the <a href="https://intelligent-sensing.github.io/"> Intelligent Sensing Laboratory </a> at the University of Maryland (UMD), where I am working with Prof. Chris Metzler. I earned my Ph.D. in electrical and computer engineering from Rice University in 2026, advised by Prof. Ashok Veeraraghavan in the <a href="https://computationalimaging.rice.edu/"> Computational Imaging Lab </a>. I have also worked closely with Prof. Ashutosh Sabharwal, Prof. Naomi Halas, Prof. Cesar A. Uribe, Dr. Henry O. Everitt from Rice University and Prof. Wolfgang Heidrich from KAUST.
                 </p>
                 <p>
                     I graduated from Trinity University in 2019 with a degree in Engineering Science and minor in Mathematics. During my time there, I worked with Prof. Dennis Ugolini on optical coatings for the Laser Interfereometric Gravitational-Wave Observatory (LIGO). I also worked with Prof. Kelly-Zion on studying fluid dynamics of sessile drop evaporation.
@@ -96,6 +96,93 @@
         </p>
       </td>
     </tr> -->
+
+    <tr onmouseout="gail_stop()" onmouseover="gail_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='gail_image'><img src="images/gail_exp_knife.png" width="160"></div>
+          <img src='images/baseline_exp_knife.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function gail_start() {
+            document.getElementById('gail_image').style.opacity = "1";
+          }
+
+          function gail_stop() {
+            document.getElementById('gail_image').style.opacity = "0";
+          }
+          gail_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/abstract/document/11668893">
+			<span class="papertitle">GAIL: Gaussian Anchors for Implicit Lateration of Radio Devices
+</span>
+        </a>
+        <br>
+        <a href="https://www.linkedin.com/in/kris-li-aa6b0a170/">Kris Li</a>,
+        <strong> Sean M. Farrell </strong>,
+        <a href="https://www.linkedin.com/in/edwin-vargas-80ab7873/?locale=en_US">Edwin Vargas</a>
+        Brian Woods,
+        <a href="https://www.linkedin.com/in/henry-everitt-2463732a/">Henry O. Everitt</a>,
+        <a href="https://computationalimaging.rice.edu/">Ashok Veeraraghavan</a>
+        <a href="https://ashu.rice.edu/">Ashutosh Sabharwal</a>,
+        <br>
+        <em>ICCP</em>, 2026 &nbsp <font color="red"><strong>(ICCP 2026 Oral Presentation)</strong></font>
+        <br>
+        <a href="https://ieeexplore.ieee.org/abstract/document/11668893">[paper]</a>
+        <p></p>
+        <p>
+          We present Gaussian Anchors for Implicit Lateraion (GAIL), an analysis-by-synthesis framework that uses entirely passive, non-modulating/identifying anchors for device self-localization with a step frequency radar in the 170-260 GHz band. GAIL represents anchors as 3D Gaussian primitives that are splatted into the 1D range domain where implicit lateration is performed to achieve 3 mm positional accuracy and enable coherent synthetic aperture imaging.
+        </p>
+      </td>
+    </tr>
+
+
+
+    <tr onmouseout="dish_stop()" onmouseover="dish_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='dish_image'><video width=100% height=100% muted autoplay loop>
+          <source src="videos/dish_siemens_star_mag.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/dish_siemens_star.svg' width="160">
+        </div>
+        <script type="text/javascript">
+          function dish_start() {
+            document.getElementById('dish_image').style.opacity = "1";
+          }
+
+          function dish_stop() {
+            document.getElementById('dish_image').style.opacity = "0";
+          }
+          dish_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <!-- <a href="https://ieeexplore.ieee.org/abstract/document/11091563"> -->
+			<span class="papertitle">Acquiring Terahertz Imagery at Video-rates using Diffraction-encoded Single-pixel Holography
+</span>
+        </a>
+        <br>
+        <strong> Sean M. Farrell </strong>,
+        <a href="https://aniketdashpute.github.io/">Aniket Dashpute</a>,
+        <a href="https://www.kaust.edu.sa/en/study/faculty/wolfgang-heidrich">Wolfgang Heidrich</a>
+        <a href="https://www.linkedin.com/in/henry-everitt-2463732a/">Henry O. Everitt</a>,
+        <a href="https://computationalimaging.rice.edu/">Ashok Veeraraghavan</a>
+        <br>
+        <em>[under review] Nature Communications</em>, 2026 
+        <br>
+        <!-- <a href="https://ieeexplore.ieee.org/abstract/document/11091563">[paper]</a> -->
+        <p></p>
+        <p>
+          Achieving high-fidelity video-rate imaging is a fundamental challenge for leading terahertz (THz) sensors due to sensitviity and space-time resolution constraints. To address these challenges, we propose Diffraction-encoded Single-pixel Holography (DiSH), a method that exploits diffraction as a spatial encoding and develop a training-free space-time neural field (STNF) to decode the measurements into a high-resolution holographic 0.643 THz video at 12.3 FPS.
+      </td>
+    </tr>
+
+
+
 
     <tr onmouseout="radish_stop()" onmouseover="radish_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
